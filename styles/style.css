@@ -1,0 +1,147 @@
+.inter-font 
+{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
+/* backgrounds */
+.bg-1
+{
+    background-color: black;
+}
+
+/* shared Button */
+/* img
+{
+    width: 100%;
+} */
+.btn-primary
+{
+    
+    background-color: #E6533C;
+    border: none;
+    border-radius: 45px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+    color: aliceblue;
+    padding: 10px 20px;
+   
+}
+.btn-secondary
+{
+    background-color: black;
+    border: 1px solid rgba(255, 255, 255, 1);
+    border-radius: 45px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+    color: aliceblue;
+    padding: 10px 20px;
+    margin-left: 15px;
+    
+}
+.banner-button1
+{
+    background-color: rgba(255, 255, 255, 0.1);
+    color: azure;
+    border-radius: 12px;
+    border: none;
+    width: 170px;
+    height: 80px;
+}
+.display-flex
+{
+    display: flex;
+    
+}
+.txt-col1
+{
+    color: rgba(255, 255, 255, 0.5);
+}
+/* body styles */
+header, main
+{
+    max-width: 1440px;
+    margin: auto;
+}
+/* nav styles */
+.nav-name
+{
+    list-style: none;
+    padding: 10px 20px;
+}
+.nav-link
+{
+    text-decoration: none;
+    font-size: 18px;
+    color: aliceblue;
+}
+.nav-bars
+{
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 50px;
+}
+.nav-item
+{
+    gap: 45px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 40px;
+}
+.nav-title
+{
+    color: #E6533C;
+}
+
+/* banner styles */
+.banner
+{
+    gap: 40%;
+}
+.banner-title
+{
+    font-weight: 900;
+    font-size: 60px;
+}
+#b-t
+{
+    font-family: 'Miama', sans-serif;
+    font-weight: 1;
+}
+.p1
+{
+    width: 35%;
+}
+.p2
+{
+    width: 25%;
+}
+#button-font
+{
+    font-weight: 900;
+    font-size: 30px;
+    
+}
+.banner-button1
+{
+    margin-top: -100px;
+}
+
+/* habits styles */
+.habits-card
+
+{
+    width: 15rem;
+    display: flex;
+    flex-direction: row;
+    /* grid-template-columns: repeat(1, 1fr); */
+    gap: 40px;
+    border: 2px solid peru;
+}
+/* .habits-card img
+{
+    width: 100%;
+} */
